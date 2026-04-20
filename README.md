@@ -1,2 +1,7 @@
 # safari-kuona-demo
-A sample project for demonstrating how a repository works, legal matters and more
+
+A simple tourist website demo with a travel-focused landing page.
+
+## Run locally
+
+Open `/home/runner/work/safari-kuona-demo/safari-kuona-demo/index.html` in a browser.

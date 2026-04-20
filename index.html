@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari Kuona Tours</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f3e8;
+      --ink: #1d2a2a;
+      --accent: #2c7a5a;
+      --card: #fffdf7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    header {
+      background: linear-gradient(135deg, #0f3d2e, #2c7a5a);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #d6d2c4;
+      border-radius: 10px;
+      padding: 1rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      color: #3f4f4f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Safari Kuona Tours</h1>
+    <p>Discover breathtaking wildlife, landscapes, and culture across East Africa.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Top Experiences</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Serengeti Game Drive</h3>
+          <p>Track the Big Five with certified local guides in a full-day safari.</p>
+        </article>
+        <article class="card">
+          <h3>Zanzibar Coast Escape</h3>
+          <p>Unwind on white-sand beaches and enjoy local seafood and culture.</p>
+        </article>
+        <article class="card">
+          <h3>Mount Kilimanjaro Trek</h3>
+          <p>Challenge yourself with guided routes suitable for different fitness levels.</p>
+        </article>
+      </div>
+    </section>
+    <section>
+      <h2>Plan Your Trip</h2>
+      <p>Choose from custom itineraries, group adventures, and family-friendly packages.</p>
+      <a class="cta" href="mailto:bookings@safarikuona.demo">Book Your Adventure</a>
+    </section>
+  </main>
+  <footer>
+    © 2026 Safari Kuona Tours
+  </footer>
+</body>
+</html>
